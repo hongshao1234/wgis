@@ -1,0 +1,118 @@
+.moving-body{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255,198,198);
+}
+
+.resume{
+    box-sizing: border-box;
+    padding: 0px 50px 20px 10px;
+    width: 100%;
+}
+
+.content{
+  position: relative;
+    overflow:visible;
+    width: 600px;
+    margin: 20px auto;
+    border: 6px rgb(14, 14, 75) solid;
+}
+
+.personal-resume{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-size: 2.5em;
+}
+
+.head-pic{
+    margin: 30px 0px 0px 0px;
+    border: 1px black solid;
+    float: left;
+}
+
+.table1{
+    display: inline-block;
+    margin: 40px 0px 0px 65px;
+    text-align: left;
+    font-size: 0.7em;
+    border-collapse: collapse;
+}
+
+td{
+    line-height: 20px;
+    width: 165px;
+    height: 30px;
+    padding: 0;
+}
+
+.add-tr-border{
+    border-bottom: 1px rgb(14, 14, 75) solid;
+}
+
+.mid-line{
+    line-height: 20px;
+    position: relative;
+    top:-10px;
+    left: -18px;
+    height: 20px;
+}
+
+.mid-line-div1{
+    float: left;
+    box-sizing: border-box;
+    width: 130px;
+    height: 20px;
+}
+
+
+.title-text{
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    z-index:2;
+    left: 50px;
+}
+
+
+.table2{
+    color:  rgb(14, 14, 75) ;
+    font-size: 0.8em;
+    text-align: left;
+    margin:0px;
+    width: 550px;
+}
+
+.content-text{
+    text-indent: 2em;
+    font-size: 0.8em;
+}
+
+.mid-line-tittle-img1{
+    width: 130px;
+    height: 21px;
+    position:absolute;
+    top:0px;
+}
+
+.mid-line-tittle-img2{
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    z-index:1;
+    left: 20px;
+    top:0px;
+}
+
+ul{
+    list-style-position: inside;
+    padding: 0;
+}
+
+li{
+    font-size: 0.8em;
+}
